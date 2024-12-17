@@ -22,5 +22,5 @@ mvn clean verify sonar:sonar -Pcoverage
 ```
 
 ```bash
-mvn clean verify sonar:sonar -D"sonar.token=<your token>" -D"sonar.host.url=https://sonarcloud.io" -D"sonar.organization=deepaksorthiya" -D"sonar.projectKey=deepaksorthiya_coverage" -Pcoverage
+mvn clean verify sonar:sonar -D"sonar.token=<your token>" -D"sonar.host.url=https://sonarcloud.io" -D"sonar.organization=deepaksorthiya" -D"sonar.projectKey=deepaksorthiya_java-service-spi" -Pcoverage
 ```

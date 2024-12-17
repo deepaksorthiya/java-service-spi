@@ -9,11 +9,6 @@ public class MySQLDataSourceProvider implements DataSourceProvider {
     @Override
     public void getDataSource() {
         log.info("MYSQL datasource provider is starting...");
-        try {
-            Thread.sleep(200);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
         log.info("MYSQL datasource provider is stopping...");
     }
 

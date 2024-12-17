@@ -116,9 +116,6 @@
     <profiles>
         <profile>
             <id>coverage</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
             <build>
                 <plugins>
                     <plugin>
@@ -134,7 +131,6 @@
                             </execution>
                             <execution>
                                 <id>report</id>
-                                <phase>verify</phase>
                                 <goals>
                                     <goal>report</goal>
                                 </goals>

@@ -41,5 +41,6 @@ class DataSourceAppTest {
     @Test
     void testMain() {
         dataSourceApp.main(null);
+        assertNotNull(dataSourceApp);
     }
 }
