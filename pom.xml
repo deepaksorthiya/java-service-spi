@@ -31,7 +31,7 @@
         <maven.source.plugin.version>3.3.1</maven.source.plugin.version>
         <maven.sonar.plugin.version>5.0.0.4389</maven.sonar.plugin.version>
         <maven.jacoco.plugin.version>0.8.12</maven.jacoco.plugin.version>
-        <junit.bom.version>5.11.4</junit.bom.version>
+        <junit.bom.version>5.12.0</junit.bom.version>
         <lombok.version>1.18.36</lombok.version>
         <logback.version>1.5.17</logback.version>
         <sonar.organization>deepaksorthiya</sonar.organization>
