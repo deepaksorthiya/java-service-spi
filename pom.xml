@@ -33,7 +33,7 @@
         <maven.jacoco.plugin.version>0.8.13</maven.jacoco.plugin.version>
         <junit.bom.version>5.13.2</junit.bom.version>
         <lombok.version>1.18.38</lombok.version>
-        <logback.version>1.5.12</logback.version>
+        <logback.version>1.5.18</logback.version>
         <sonar.organization>deepaksorthiya</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
